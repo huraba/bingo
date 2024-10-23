@@ -19,7 +19,6 @@ public class App {
             bingoList.add(i);
         }
         Collections.shuffle(bingoList);
-        System.out.println("Generated numbers: " + bingoList);
         
         
         JFrame frame = new JFrame("bingoゲーム");
